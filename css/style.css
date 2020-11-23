@@ -5,7 +5,7 @@
   padding-top: 15px;
 }
 i{
-  margin-left: 48%;
+  margin-left: 45%;
   padding-top: 15px;
 }
 /* COMMON */
@@ -35,3 +35,28 @@ background-color: #1bbc9b;
   padding-top: 20px;
 }
 /* FINE PORTFOLIO */
+
+/* ABOUT */
+#about{
+  background-color: #1bbc9b;
+  margin-top: 40px;
+}
+#about h2,i{
+  color: #fff;
+}
+#about p{
+  color: #fff;
+  padding: 40px 20%;
+  font-size: 22px;
+}
+#about button{
+margin-left: 35%;
+margin-bottom: 30px;
+}
+/* FINE ABOUT */
+
+/* CONTACT */
+#contact i{
+  color: black;
+}
+/* FINE CONTACT */
