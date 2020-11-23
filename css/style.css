@@ -1,0 +1,37 @@
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 15px;
+}
+i{
+  margin-left: 48%;
+  padding-top: 15px;
+}
+/* COMMON */
+
+#navbar{
+  height: 180px;
+  background-color: #425B76;
+}
+
+/* JUMBOTRON */
+#jumbotron{
+background-color: #1bbc9b;
+}
+
+#jumbotron .title{
+  color: #fff;
+}
+
+#jumbotron i{
+  color: #fff;
+}
+/* FINE JUMBOTRON */
+
+/* PORTFOLIO */
+[class*="col-xs-"] img{
+  width: 100%;
+  padding-top: 20px;
+}
+/* FINE PORTFOLIO */
