@@ -1,13 +1,51 @@
+.bck-green{
+  background-color: #1bbc9b;
+}
 .title{
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 15px;
 }
-i{
-  margin-left: 45%;
-  padding-top: 15px;
+.button-container{
+  text-align: center;
+  margin-bottom: 30px;
 }
+/* STELLA */
+.star-container{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.star-container i{
+  line-height: 4px;
+  vertical-align: middle;
+}
+.star-container::before,
+.star-container::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.star-container.star-white::before,
+.star-container.star-white::after{
+  background-color: white;
+}
+.star-container.star-dark::before,
+.star-container.star-dark::after{
+  background-color: #2c3e50;
+}
+.star-white{
+  color: white;
+}
+.star-dark{
+  color: #2c3e50;
+}
+/* FINE STELLA */
 /* COMMON */
 
 #navbar{
@@ -16,15 +54,7 @@ i{
 }
 
 /* JUMBOTRON */
-#jumbotron{
-background-color: #1bbc9b;
-}
-
 #jumbotron .title{
-  color: #fff;
-}
-
-#jumbotron i{
   color: #fff;
 }
 /* FINE JUMBOTRON */
@@ -38,10 +68,9 @@ background-color: #1bbc9b;
 
 /* ABOUT */
 #about{
-  background-color: #1bbc9b;
   margin-top: 40px;
 }
-#about h2,i{
+#about h2{
   color: #fff;
 }
 #about p{
@@ -49,14 +78,7 @@ background-color: #1bbc9b;
   padding: 40px 20%;
   font-size: 22px;
 }
-#about button{
-margin-left: 35%;
-margin-bottom: 30px;
-}
 /* FINE ABOUT */
 
 /* CONTACT */
-#contact i{
-  color: black;
-}
 /* FINE CONTACT */
