@@ -76,7 +76,9 @@
 /* FINE NAVBAR */
 
 /* JUMBOTRON */
-
+#jumbotron h3:last-child{
+  margin-bottom: 30px;
+}
 /* FINE JUMBOTRON */
 
 /* PORTFOLIO */
@@ -103,16 +105,15 @@
 .bl-form ::placeholder, .bl-form input, .bl-form textarea{
   color: #2c3e50;
   font-size: 19px;
-  /* line-height: 2.5; */
 }
 .bl-form .form-group{
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
 }
-.bl-form input, .bl-form textarea{
+.bl-form input,
+.bl-form textarea{
   border: 0;
   border-radius: 0;
-  /* border-bottom: 1px solid #ccc; */
   box-shadow: none;
   padding-left: 0;
 }
@@ -120,3 +121,28 @@
   text-align: left;
 }
 /* FINE CONTACT */
+
+/* FOOTER */
+#footer{
+  background-color: #3a546d;
+}
+#footer h3,h4,p{
+  text-align: center;
+}
+#footer .icon-container{
+  text-align: center;
+}
+#footer .icon{
+  color: #fff;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+}
+#end-footer{
+  background-color: #2d3e50;
+}
+#end-footer p{
+  padding-top: 10px;
+}
+/* FINE FOOTER */
