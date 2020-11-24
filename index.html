@@ -11,10 +11,29 @@
   <body>
     <!-- Container di pagina -->
     <div class="container-fluid">
-      <!-- fine navbar -->
-      <div class="container" id="navbar">
 
-      </div>
+
+      <!-- navbar -->
+      <nav class="navbar navbar-default bl-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="text-uppercase"><a href="#">Portfolio</a></li>
+              <li class="text-uppercase"><a href="#">Contact</a></li>
+              <li class="text-uppercase"><a href="#">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <!-- fine navbar -->
 
       <!-- Jumbotron -->
@@ -24,14 +43,14 @@
             <div class="avatar-container">
               <img src="img/avataaars.svg" alt="">
             </div>
-            <h1 class="title">start bootstrap</h1>
+            <h1 class="title text-white">start bootstrap</h1>
             <div class="star-container star-white">
               <i class="fa fa-star fa-3x star-white" aria-hidden="true"></i>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <h2 class="title">grapich artist - web designer - illustrator</h2>
+              <h2 class="title text-white">grapich artist - web designer - illustrator</h2>
             </div>
           </div>
         </div>
@@ -75,19 +94,19 @@
       <!-- About -->
       <div class="container bck-green" id="about">
         <div class="row">
-          <h2 class="title">about</h2>
+          <h2 class="title text-white">about</h2>
           <div class="star-container star-white">
             <i class="fa fa-star fa-3x star-white" aria-hidden="true"></i>
           </div>
           <div class="col-xs-12 col-md-6">
-            <p>Freelancer is a free bootstrap theme created by start bootstrap. The download includes the complete source flies including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization</p>
+            <p class="text-white">Freelancer is a free bootstrap theme created by start bootstrap. The download includes the complete source flies including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <p>Whether you're a student looking to showcase yourwork, a professional looking to attract clients or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="text-white">Whether you're a student looking to showcase yourwork, a professional looking to attract clients or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
           </div>
         </div>
         <div class="button-container">
-          <button type="button" class="btn btn-default">Download</button>
+          <button type="button" class="btn btn-lg btn-green">Download</button>
         </div>
       </div>
       <!-- fine About -->
@@ -98,10 +117,30 @@
         <div class="star-container star-dark">
           <i class="fa fa-star fa-3x star-dark" aria-hidden="true"></i>
         </div>
+        <!-- FORM -->
         <div class="row">
+          <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+            <form class="bl-form">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
 
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+            </form>
+            <div class="button-container">
+              <button type="button" class="btn btn-lg btn-green">Download</button>
+            </div>
+          </div>
+        </div> <!-- FINE FORM -->
+      </div>
 
-        </div>
+      <div class="container" id="footer">
+
       </div>
     </div>
     <!-- fine Container di pagina -->
